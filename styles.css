@@ -1,0 +1,75 @@
+/* Configuración general */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f3f4f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+            text-align: center;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #0f172a;
+            font-size: 32px;
+            letter-spacing: 1px;
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        /* Sistema de cuadrícula (Grid) */
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            text-align: left;
+        }
+
+        .color-item {
+            font-size: 20px;
+            font-weight: bold;
+            color: #ffffff;
+            padding: 20px 24px;
+            box-sizing: border-box;
+        }
+
+        /* Modificadores de expansión de columnas (Colspan) */
+        .span-2 {
+            grid-column: span 2;
+        }
+        .span-4 {
+            grid-column: span 4;
+        }
+
+        /* Paleta de colores específicos (Colores de Fondo) */
+        .blue-gray  { background-color: #0f172a; }
+        .cool-gray  { background-color: #334155; }
+        .warm-gray  { background-color: #78716c; }
+        .amber      { background-color: #b45309; }
+        .green      { background-color: #14532d; }
+        .gray       { background-color: #1f2937; }
+        .red        { background-color: #dc2626; }
+        .yellow     { background-color: #eab308; }
+        .emerald    { background-color: #064e3b; }
+        .true-gray  { background-color: #262626; }
+        .orange     { background-color: #ea580c; }
+        .lime       { background-color: #3f6212; }
+        .teal       { background-color: #115e59; }
+        .fuchsia    { background-color: #a21caf; }
+        .pink       { background-color: #be185d; }
+        .rose       { background-color: #e11d48; }
+        .purple     { background-color: #7e22ce; }
+        .violet     { background-color: #6d28d9; }
+        .indigo     { background-color: #1e3a8a; }
+        .blue       { background-color: #1d4ed8; }
+        .sky        { background-color: #0369a1; }
+        .cyan       { background-color: #155e75; }
